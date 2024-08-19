@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivrea</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <a href="/djchettyHome.html" class="active" style="margin-right: 1%; margin-left: 1%;"><b>Home Page</b></a>
+            <div class="dropdown">
+              <button class="dropbtn"><b>Public Gallery</b></button>
+              <div class="dropdown-content">
+                <ul class = "nav-list">
+                  <li><a href="switzerland.html">Switzerland</a></li>
+                  <li><a href="China.html">China</a></li>
+                  <li><a href="WashingtonD.C.html">Washington D.C.</a></li>
+                  <li><a href="England.html">England</a></li>
+                  <li><a href="SanDiego.html">San Diego</a></li>
+                  <li><a href="Ivrea.html">Ivrea</a></li>
+                  <li><a href="Toronto.html">Toronto</a></li>
+                  <li><a href="July4th.html">July 4th</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn"><b>Private Gallery</b></button>
+              <div class="dropdown-content">
+                <ul class = "nav-list">
+                  <li><a href="Graduation.html">Kieran's Graduation</a></li>
+                  <li><a href="Rowan16.html">Rowan's 16th</a></li>
+                  </ul>
+              </div>
+            </div>
+    <a href="About.html" class="active" style="margin-left: 1%;"><b>About</b></a> 
+ <h1 style=" text-align: center; margin-top: 20px;">Ivrea</h1>
+<div class="full-img" id="fullImgBox">
+    <img src = "djhomephoto.jpg" id="fullImg">
+    <span onclick="closeFullImg()">x</span>
+</div>
+<div class="img-gallery">
+    <img src="Destinations/Ivrea/I1.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I2.PNG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I3.PNG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I4.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I5.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I6.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I7.JPG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I8.JPEG" onclick="openFullImg(this.src)">
+    <!-- <img src="Destinations/Ivrea/I9.JPEG" onclick="openFullImg(this.src)"> -->
+    <img src="Destinations/Ivrea/I10.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I11.JPEG" onclick="openFullImg(this.src)">
+    <!-- <img src="Destinations/Ivrea/I12.JPEG" onclick="openFullImg(this.src)"> -->
+    <img src="Destinations/Ivrea/I13.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I14.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I15.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I16.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I17.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I18.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I19.PNG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I20.JPEG" onclick="openFullImg(this.src)">
+    <img src="Destinations/Ivrea/I21.JPEG" onclick="openFullImg(this.src)">
+
+    
+    
+    
+ </div>
+
+ <script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+ </script>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kieran's Graduation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        #content {
+            display: none;
+        }
+       
+        #login {
+            text-align: center;
+            margin: 20px;
+        }
+        .img-gallery {
+            display: none; 
+        }
+                
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="/djchettyHome.html" class="active" style="margin-right: 1%; margin-left: 1%;"><b>Home Page</b></a>
+        <div class="dropdown">
+            <button class="dropbtn"><b>Public Gallery</b></button>
+            <div class="dropdown-content">
+                <ul class="nav-list">
+                    <li><a href="switzerland.html">Switzerland</a></li>
+                    <li><a href="China.html">China</a></li>
+                    <li><a href="WashingtonD.C.html">Washington D.C.</a></li>
+                    <li><a href="England.html">England</a></li>
+                    <li><a href="SanDiego.html">San Diego</a></li>
+                    <li><a href="Ivrea.html">Ivrea</a></li>
+                    <li><a href="Toronto.html">Toronto</a></li>
+                    <li><a href="July4th.html">July 4th</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><b>Private Gallery</b></button>
+            <div class="dropdown-content">
+                <ul class="nav-list">
+                    <li><a href="Graduation.html">Kieran's Graduation</a></li>
+                    <li><a href="Rowan16.html">Rowan's 16th</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="About.html" class="active" style="margin-left: 1%;"><b>About</b></a>
+    </nav>
+
+    <h1 style="text-align: center; margin-top: 20px;">Kieran's Graduation</h1>
+
+    <div id="login">        
+        <form id="passwordForm">            
+            <label for="password">Enter Password:</label>            
+            <input type="password" id="password" required>            
+            <button type="submit">Submit</button>        
+        </form>        
+        <p id="errorMessage" style="color: red; display: none;">Incorrect password, please try again.</p>    
+    </div>
+
+    <div id="content">
+        <div class="full-img" id="fullImgBox">
+            <img src="djhomephoto.jpg" id="fullImg" onclick="closeFullImg()">
+            <span onclick="closeFullImg()" style="color: white; cursor: pointer; font-size: 30px; position: absolute; top: 5%; right: 5%;">x</span>
+        </div>
+        <div class="img-gallery">
+            <img src="Destinations/Stoga Graduation/G1.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G2.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G3.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G4.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G5.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G6.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G7.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G8.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G9.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G10.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G11.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G12.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G13.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G14.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G15.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G16.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G17.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G18.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G19.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G20.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G21.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G22.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G23.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G24.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G25.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G26.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G27.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G28.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G29.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G30.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G31.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G32.JPEG" onclick="openFullImg(this.src)">
+            <!-- <img src="Destinations/Stoga Graduation/G33.JPEG" onclick="openFullImg(this.src)"> -->
+            <img src="Destinations/Stoga Graduation/G34.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G36.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G37.JPEG" onclick="openFullImg(this.src)">
+            <img src="Destinations/Stoga Graduation/G38.JPEG" onclick="openFullImg(this.src)">
+            <!-- <img src="Destinations/Stoga Graduation/G39.JPEG" onclick="openFullImg(this.src)"> -->
+            <img src="Destinations/Stoga Graduation/G40.JPEG" onclick="openFullImg(this.src)">
+        </div>
+    </div>
+
+    <script>
+        const correctPassword = "2524";      
+        const form = document.getElementById('passwordForm');        
+        const content = document.getElementById('content');        
+        const errorMessage = document.getElementById('errorMessage');        
+        const fullImgBox = document.getElementById("fullImgBox");
+        const fullImg = document.getElementById("fullImg");
+
+        form.addEventListener('submit', function(event) {            
+            event.preventDefault();            
+            const password = document.getElementById('password').value;            
+        
+            if (password === correctPassword) {                
+                document.getElementById('login').style.display = 'none';            
+                content.style.display = 'block'; 
+                document.querySelector('.img-gallery').style.display = 'grid'; 
+            } 
+            else {                
+                errorMessage.style.display = 'block';    
+            }        
+        });    
+
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
